@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "author": "Pravin Kumar",
+  "license": "ISC",
   "scripts": {
     "startDev": "webpack-dev-server --mode development",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,8 +14,6 @@
     "type": "git",
     "url": "https://github.com/pravin-105111/react-config-with-unit-test.git"
   },
-  "author": "Pravin Kumar",
-  "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.6.0",
     "@babel/core": "^7.6.0",

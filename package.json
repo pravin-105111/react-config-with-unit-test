@@ -6,8 +6,8 @@
   "author": "Pravin Kumar",
   "license": "ISC",
   "scripts": {
-    "startDev": "webpack-dev-server --mode development",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "webpack-dev-server --mode development",
+    "test:unit": "mocha --reporter spec test/unit-test-setup.js  test/*-tests.js",
     "build": "webpack --mode development"
   },
   "repository": {
@@ -19,8 +19,15 @@
     "@babel/core": "^7.6.0",
     "@babel/preset-env": "^7.6.0",
     "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.6.0",
     "babel-loader": "^8.0.6",
+    "chai": "^4.2.0",
     "css-loader": "^3.2.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "jsdom": "^15.1.1",
+    "mocha": "^6.2.0",
+    "react-addons-test-utils": "^15.6.2",
     "style-loader": "^1.0.0",
     "webpack": "^4.40.2",
     "webpack-cli": "^3.3.9",

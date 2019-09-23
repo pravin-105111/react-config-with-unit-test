@@ -30,5 +30,10 @@ module.exports = {
     publicPath: "http://localhost:4000/dist/",
     hotOnly: true
   },
+  externals: {
+    'cheerio': 'window',
+    'react/lib/ExecutionEnvironment': true,
+    'react/lib/ReactContext': true,
+  },
   plugins: [new webpack.HotModuleReplacementPlugin()]
 };

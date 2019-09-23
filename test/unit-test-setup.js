@@ -25,7 +25,7 @@ require.extensions['.css'] = function () {return null}
 var jsdom = require('jsdom');
 const { JSDOM } = jsdom;
 
-const { document } = (new JSDOM('',{
+const { document } = (new JSDOM('', {
   url: "http://localhost"
 })).window;
 

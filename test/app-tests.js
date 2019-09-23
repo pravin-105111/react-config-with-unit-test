@@ -10,6 +10,9 @@ configure({ adapter: new Adapter() });
 describe('test app.js', function () {
     it('should have rendered message', function () {
         const wrapper = shallow(<App />);
-        expect(wrapper.find('h1')).not.equal('Hello, Pravin!');
+        return Promise.all([
+            expect(wrapper.find('h1')).to.have.length(1),
+            expect(wrapper.find('h1').text()).to.equal('Hello, Pravin!')
+        ]);
     });
 }); 

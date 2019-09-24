@@ -1,5 +1,5 @@
 import React from 'react';
-import {configure, mount, shallow } from 'enzyme';
+import {configure, shallow } from 'enzyme';
 import {expect} from 'chai';
 import Adapter from 'enzyme-adapter-react-16';
 

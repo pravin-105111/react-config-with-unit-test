@@ -7,7 +7,7 @@
   "license": "ISC",
   "scripts": {
     "start:dev": "webpack-dev-server --mode development",
-    "test:unit": "mocha --reporter spec test/unit-test-setup.js  test/*-tests.js",
+    "test:unit": "mocha --reporter spec test/test-util/mocha-hook.js  test/*-tests.js",
     "build": "webpack --mode development"
   },
   "repository": {

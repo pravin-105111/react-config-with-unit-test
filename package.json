@@ -26,7 +26,7 @@
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
     "jsdom": "^15.1.1",
-    "mocha": "^6.2.0",
+    "mocha": "^10.2.0",
     "react-addons-test-utils": "^15.6.2",
     "style-loader": "^1.0.0",
     "webpack": "^4.40.2",
